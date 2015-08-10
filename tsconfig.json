@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "out": "./js/app.js",
+    "target": "ES5",
+    "sourceMap": true
+  },
+  "files": [
+    "typings/fabric.d.ts",
+    "typings/lodash.d.ts",
+    "ts/cell.ts",
+    "ts/grid.ts",
+    "ts/game.ts"
+  ]
+}
